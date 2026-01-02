@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
     height: 50,
     borderRadius: 25, // 圓形大頭貼
     borderWidth: 2,
-    borderColor: '#efff61ff',
+    borderColor: '#ffd261',
   },
   textContainer: {
     flex: 1,
