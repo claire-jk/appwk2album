@@ -4,7 +4,7 @@ import { FlatList, Linking, Modal, StyleSheet, Text, TouchableOpacity, View } fr
 import AlbumDetail from './AlbumDetail';
 import albumData from './albums.json';
 
-const AlbumList = () => {
+const AlbumList = (props: any) => {
   const [modalVisible, setModalVisible] = useState(false);
   const [selectedAlbum, setSelectedAlbum] = useState<any>(null);
 
