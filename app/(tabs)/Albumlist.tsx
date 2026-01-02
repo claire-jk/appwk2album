@@ -1,25 +1,45 @@
 import React from 'react';
-import { ScrollView } from 'react-native';
+import { ScrollView, StyleSheet, Text, View } from 'react-native';
 import AlbumDetail from './AlbumDetail';
-// 引入剛剛建立的 JSON 檔案
 import albumData from './albums.json';
 
 const AlbumList = () => {
   return (
-    <ScrollView>
-      {/* 使用 map 迴圈，自動將 JSON 裡的每一筆資料轉成組件 */}
-        {albumData.map((album, index) => (
+    <ScrollView style={styles.container} contentContainerStyle={{ paddingBottom: 30 }}>
+      <View style={styles.header}>
+        <Text style={styles.headerTitle}>Solo Discography</Text>
+      </View>
+      
+      {albumData.map((album, index) => (
         <AlbumDetail 
-            // 修正點：使用 index 或 album.title 作為唯一 Key
-            key={index} 
-            albumTitle={album.title}
-            artist={album.artist}
-            thumbnail={album.thumbnail_image}
-            mainImage={album.image}
+          key={index} 
+          albumTitle={album.title}
+          artist={album.artist}
+          thumbnail={album.thumbnail_image}
+          mainImage={album.image}
         />
-        ))}
+      ))}
     </ScrollView>
   );
 };
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#121212', // 全域深色背景
+  },
+  header: {
+    paddingTop: 30,
+    paddingHorizontal: 20,
+    paddingBottom: 10,
+  },
+  headerTitle: {
+    fontSize: 28,
+    //fontWeight: 'bold',
+    color: '#ffd261',
+    letterSpacing: 1,
+    fontFamily: 'Vibes',
+  }
+});
 
 export default AlbumList;
