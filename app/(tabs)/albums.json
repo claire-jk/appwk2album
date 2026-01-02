@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Jack in the Box",
+    "artist": "Jhope",
+    "thumbnail_image": "https://www.rollingstone.com/wp-content/uploads/2025/03/j-hope-press-photo.jpg",
+    "image": "https://www.billboard.com/wp-content/uploads/2022/07/j-hope-jack-in-the-box-bts-billboard-02-1548.jpg"
+  },
+  {
+    "title": "The Astronaut",
+    "artist": "Jin",
+    "thumbnail_image": "https://od2-image-api.abs-cbn.com/prod/20250414070428/38469491029c827f6efe77ad7fc2ea6f4d071b02475cb47e4c96405766cfe350.jpg",
+    "image": "https://houseradio.com.mx/wp-content/uploads/2023/07/THE-ASTRONAUT-JIN.jpg"
+  },
+  {
+    "title": "Indigo",
+    "artist": "RM",
+    "thumbnail_image": "https://i.mydramalist.com/qrE1B_5c.jpg",
+    "image": "https://thumb.pann.com/tc_480/http://fimg5.pann.com/new/download.jsp?FileID=65096952"
+  },
+  {
+    "title": "FACE",
+    "artist": "Jimin",
+    "thumbnail_image": "https://img.ltn.com.tw/Upload/style/page/2023/03/08/230308-24560-4-WcEjo.jpg",
+    "image": "https://www.leisurebyte.com/wp-content/uploads/2023/03/Face-album-bts-jimin-696x392.jpg"
+  },
+  {
+    "title": "D-DAY",
+    "artist": "Suga",
+    "thumbnail_image": "https://www.allkpop.com/upload/2020/07/content/041915/1593904548-maxresdefault-2.jpg",
+    "image": "https://megapx-assets.dcard.tw/images/b1ce836e-514b-4f8e-b543-7beacc331010/1280.jpeg"
+  },
+  {
+    "title": "GOLDEN",
+    "artist": "Jungkook",
+    "thumbnail_image": "https://cdn.shopify.com/s/files/1/0469/3927/5428/files/7788dc8fe991fcb8c684d1e462c7a61a.jpg?v=1724081793",
+    "image": "https://phinf.wevpstatic.net/MjAyMzExMTJfNzAg/MDAxNjk5NzY0NDMwNDM5.BaAeMxTAbyVo-Qx9Dipeil1qBOyYDWazeixzA_f8JBAg.avEiQjg92LWG7Y8G-2be51X-QzgYkGXHziRYKzHCzW8g.JPEG/77acaab7-3726-4f48-905e-1ae84ad06e5e.jpeg"
+  },
+  {
+    "title": "Layover",
+    "artist": "V",
+    "thumbnail_image": "https://sakshiudavant.com/wp-content/uploads/2023/09/image-34.jpeg",
+    "image": "https://www.adobomagazine.com/wp-content/uploads/2023/08/V-of-BTS-announces-first-solo-album-Layover-hero2.jpg"
+  }
+]
